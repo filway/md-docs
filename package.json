@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "vitepress build",
+    "build": "vitepress build docs",
     "dev": "cross-env NODE_ENV=development vitepress"
   },
   "devDependencies": {
