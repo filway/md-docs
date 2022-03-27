@@ -14,4 +14,4 @@ jobs:
         TARGET_REPO: filway/filway.github.io
         TARGET_BRANCH: master
         BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: docs/.vitepress/dist/
+        BUILD_DIR: .vitepress/dist/
