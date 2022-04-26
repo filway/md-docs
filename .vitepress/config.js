@@ -23,6 +23,11 @@ async function getConfig() {
       ],
       ["script", { src: "https://lib.baomitu.com/gitalk/1.7.0/gitalk.min.js" }],
       ["script", { src: "https://lib.baomitu.com/axios/0.21.1/axios.js" }],
+      ["script", {
+        async: true,
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6346362766172412",
+        crossorigin: "anonymous"
+      }]
     ],
     title: "filway",
     themeConfig: {
